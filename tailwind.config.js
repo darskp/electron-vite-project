@@ -4,9 +4,18 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {},
-  },
   plugins: [],
+   theme: {
+    fontFamily: {
+      
+      sans: [
+        'Roboto, Arial, sans-serif',
+        {
+          fontFeatureSettings: '"cv11", "ss01"',
+          fontVariationSettings: '"opsz" 32'
+        },
+      ],
+    },
+  },
 }
 

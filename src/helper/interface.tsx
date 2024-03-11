@@ -1,4 +1,5 @@
+
 export interface SeekComponentProps {
-    tags: string[];
+    tags: Record<string, number>; 
     onClick: (seconds: number) => void;
 }
